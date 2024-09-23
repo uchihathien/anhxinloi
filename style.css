@@ -235,3 +235,94 @@ body{
     bottom: 50%;
     border-radius: 50%;
 }
+
+/* Media query for devices with a max width of 600px */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(255, 218, 232);
+    }
+
+    .loading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .heartItem img {
+        width: 30px;
+    }
+
+    .progress-bar {
+        width: 90%;
+        height: 30px;
+    }
+
+    .textBox {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .textLoad {
+        font-size: 14px;
+    }
+
+    .button {
+        width: 80px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .buttonCLick {
+        margin-top: 20px;
+    }
+
+    .buttonCLick img {
+        width: 20px;
+    }
+
+    .heartBox {
+        width: 30px;
+        height: 20px;
+    }
+
+    .heartBox .heart {
+        width: 8px;
+        height: 8px;
+    }
+
+    .percent {
+        font-size: 14px;
+    }
+
+    .loading .boxHeartImg {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .heartItem {
+        left: 0 !important;
+        right: 0 !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .heartItem img {
+        width: 25px !important;
+    }
+
+    .loading .boxHeartImg {
+        width: auto;
+        padding: 10px;
+    }
+
+    .button {
+        font-size: 10px;
+        width: 60px;
+        height: 30px;
+    }
+}
