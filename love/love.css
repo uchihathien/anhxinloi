@@ -565,7 +565,7 @@ body{
 .boxLetter .formLetter{
     position: relative;
     width: 600px;
-    height: 350px;
+    height: 450px;
     background-color: #FFEBEB;
     border-radius: 20px;
     z-index: 100;
@@ -636,17 +636,17 @@ body{
 }
 .giftbox .img{
     position: absolute;
-    width: 180px;
+    width: 150px;
     bottom: -10px;
     left: 50px;
     z-index: 100;
 }
 .giftbox img{
-    width: 100%;
+    width: 80%;
 }
 .textLetter{
     position: relative;
-    width: 60%;
+    width: 80%;
     flex-direction: column;
     display: flex;
     align-items: center;
@@ -781,7 +781,7 @@ body{
     }
 
     .formLetter .wrapperLetter {
-        height: 300px;
+        height: 400px;
     }
 
     .giftbox .img {
@@ -811,3 +811,15 @@ body{
     }
 }
 
+.giftbox {
+    position: relative;
+    width: 30%; /* Giảm kích thước từ 50% xuống 30% */
+    height: 100%;
+}
+.giftbox .img {
+    position: absolute;
+    width: 120px; /* Giảm kích thước từ 250px xuống 120px */
+    bottom: -10px;
+    left: 20px;
+    z-index: 100;
+}
